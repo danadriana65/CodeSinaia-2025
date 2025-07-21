@@ -1,9 +1,9 @@
 import random
 
 # Read input parameters from the console
-count = 100 # int(input("Number of values?> "))
-min_value = 15 # int(input("Minimum value?> "))
-max_value = 65 # int(input("Maximum value?> "))
+count = int(input("Number of values> ")) # int(input("Number of values?> "))
+min_value = int(input("Minimum values> "))# int(input("Minimum value?> "))
+max_value = int(input("Maximum value> ")) # int(input("Maximum value?> "))
 print(f"Generating {count} randoms in the range [{min_value}, {max_value}]")
 
 # Generate count values in the range [min_value, max_value] and store them in a the values map
