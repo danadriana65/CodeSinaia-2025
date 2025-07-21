@@ -15,7 +15,7 @@ print(f"Munti fara altitudine: {missing_altitude}")
 
 valid_alts = df["Altitudine"].dropna()
 alt_min = valid_alts.min()
-alt_max = valid_alts.max() 
+alt_max = valid_alts.max()
 alt_mean = valid_alts.mean()
 alt_median = valid_alts.median()
 alt_std = valid_alts.std()
